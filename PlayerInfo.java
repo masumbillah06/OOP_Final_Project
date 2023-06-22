@@ -9,7 +9,7 @@ public class PlayerInfo implements  InputInformation{
     @Override
     public void takeInfo() {
         try {
-            System.out.print("\nEnter Address for player no : "+i);
+            System.out.print("\nEnter Information for player no : "+i);
             System.out.print("\nEnter Name: ");
             name = in.nextLine();
             System.out.print("Enter Age: ");
